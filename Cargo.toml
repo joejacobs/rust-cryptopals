@@ -1,0 +1,10 @@
+[package]
+name = "cryptopals"
+version = "0.1.0"
+authors = ["Joe Jacobs <joe@hazardcell.com>"]
+include = ["src/*", "data/*"]
+
+[dependencies]
+base64 = "*"
+botan = "*"
+hex = "*"
